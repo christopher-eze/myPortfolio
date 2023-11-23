@@ -1,0 +1,59 @@
+/* Nav */
+.nav-bar {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+.nav-bar{
+  flex-direction: row;
+  justify-content: flex-end;  
+}
+
+.nav-bar ul {
+  margin: 20px;
+}
+/* Header */
+.header {
+  margin: auto;
+  color: whitesmoke;
+  height: 200px;
+  width: 100%;
+  display: block;
+  background-color: gray;
+  background-image:url(../images/Profile\ Pics.jpeg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content:center;
+  justify-content: baseline;
+}
+
+.nav-bar {
+  align-content: baseline;
+}
+
+nav-bar, a{
+  color: lightskyblue;
+}
+
+
+/* Grid area */
+
+
+
+
+/* Aside Style */
+
+
+
+
+/* Footer */
+
+
+/* Media Query */
