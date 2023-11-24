@@ -68,8 +68,9 @@ h2 {
 
 /* Work Grid area*/
 #work-grid {
+  margin-left: 40px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 300px 300px;
   grid-template-rows: 50% 25% 25%;
   grid-template-areas: 
   'horeison horeison'
@@ -77,16 +78,35 @@ h2 {
   'firstwebsite running'
   ;
 }
-
-
-
-
-#bookcases {
-  grid-area: bookcases;
-  background-image: url("../images/bookcases@2x.png");
-
+#horeison {
+  grid-area: horeison;
+  background-image: url(../images/horeison.JPG);
 }
-
+#ledwall {
+  grid-area: ledwall;
+  background-image: url(../images/ledwall.JPG);
+}
+#calculator {
+  grid-area: calculator;
+  background-image: url(../images/calculator.JPG);
+}
+#firstwebsite {
+  grid-area: firstwebsite;
+  background-image: url(../images/firstwebsite.JPG);
+}
+#running {
+  grid-area: running;
+  background-image: url(../images/running.JPG);
+}
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
 /* Footer */
 
 
