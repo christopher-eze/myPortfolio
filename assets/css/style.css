@@ -1,57 +1,91 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /* Nav */
 .nav-bar {
   height: 40px;
   width: 100%;
   display: flex;
-  background-color: black;
+  background-color: rgb(73, 69, 69);
 }
-
 .nav-bar{
   flex-direction: row;
   justify-content: flex-end;  
+  align-items: center;
 }
 
-.nav-bar ul {
-  margin: 20px;
+.nav-bar ul a {
+  margin: 40px;
+  color: lightskyblue;
 }
+
 /* Header */
 .header {
   margin: auto;
-  color: whitesmoke;
   height: 200px;
   width: 100%;
-  display: block;
   background-color: gray;
   background-image:url(../images/Profile\ Pics.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
-
+.header h1 {
+  margin: 20px;
+  color: lightskyblue;
+}
 .header {
   display: flex;
   flex-direction: column-reverse;
-  align-content:center;
   justify-content: baseline;
+  align-items: flex-end;
 }
 
-.nav-bar {
-  align-content: baseline;
-}
-
-nav-bar, a{
-  color: lightskyblue;
-}
 
 
 /* Grid area */
 
 
 
-
 /* Aside Style */
 
+/* About me Section */
+#about-me {
+  display: flex;
+  flex-direction: row;
+  
+}
+#aboutMeArticle {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+h2 {
+  margin-top: 0%;
+  padding: 20PX;
+  margin-left: 40px;
+}
+
+/* Work Grid area*/
+#work-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-areas: 
+  'horeison horeison'
+  'ledwall calculator'
+  'firstwebsite running'
+  ;
+}
 
 
+
+
+#bookcases {
+  grid-area: bookcases;
+  background-image: url("../images/bookcases@2x.png");
+
+}
 
 /* Footer */
 
