@@ -100,6 +100,21 @@ h2 {
   align-content: end;
   margin: 10px;
 }
+.heading {
+  background-color: lightskyblue;
+  padding: 10px;
+  margin: auto;
+  margin-inline-start: 1px;
+  margin-bottom: 15px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-display: left ;
+  height: 25px;
+  border: 2px solid lightskyblue;
+  
+  
+}
 
 
 /* Footer */
