@@ -42,14 +42,6 @@ body {
   align-items: flex-end;
 }
 
-
-
-/* Grid area */
-
-
-
-/* Aside Style */
-
 /* About me Section */
 #about-me {
   display: flex;
@@ -68,10 +60,12 @@ h2 {
 
 /* Work Grid area*/
 #work-grid {
-  margin-left: 40px;
   display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-rows: 50% 25% 25%;
+  margin: 20px;
+  margin-left: 145px;
+  margin-top: -70px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 100px 100px;
   grid-template-areas: 
   'horeison horeison'
   'ledwall calculator'
@@ -100,13 +94,14 @@ h2 {
 }
 .categoryGridArea {
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
+  background-size: cover;
   display: grid;
   align-content: end;
+  margin: 10px;
 }
+
+
 /* Footer */
 
 
