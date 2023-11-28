@@ -60,7 +60,7 @@ h2 {
 }
 
 /* Work Grid area*/
-#work-grid {
+.work-grid {
   display: grid;
   margin: 20px;
   margin-left: 145px;
@@ -130,7 +130,43 @@ h2 {
   font-size: 20px;
   padding: 20px;
 }
-/* Footer */
 
+@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+  }
+  .icons {
+    margin-left: auto;
+  }
+}
 
 /* Media Query */
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
+  .work-grid {
+    grid-template-areas:
+    grid-template-areas: 
+    'horeison horeison'
+    'ledwall calculator'
+    'firstwebsite running'
+  }
+  .work-grid{
+    grid-template-columns: 1fr
+    grid-template-rows: 200px 100px 100px;
+    grid-template-areas: 
+      "horeison"
+      "ledwall"
+      "calculator"
+      "firstwebsite"
+      "running"
+    ;
+  }
+}
+
+
+
+
+
