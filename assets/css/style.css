@@ -166,7 +166,16 @@ h2 {
   }
 }
 
-
-
+/* Vertical Lines */
+.work-grid {
+  border-left: 3px;
+  border-left-style: solid;
+  padding-left: 14px;
+}
+#aboutMeArticle {
+  border-left: 3px;
+  border-left-style: solid;
+  padding-left: 14px;
+}
 
 
